@@ -1,0 +1,23 @@
+# Site settings
+title: "Lee Pike’s Blog"
+description: "Things that amuse me."
+baseurl: "/blog"
+url: "https://leepike.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  math_engine_opts: {}  # optional
+  input: GFM
+  parse_block_html: true
+  hard_wrap: false
+# theme: minima
+
+# Permalink format for posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude temp files
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+
+<h2>Posts</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+{% if site.posts == empty %}
+<p><em>No posts yet. Add Markdown files under <code>_posts/</code>.</em></p>
+{% endif %}
