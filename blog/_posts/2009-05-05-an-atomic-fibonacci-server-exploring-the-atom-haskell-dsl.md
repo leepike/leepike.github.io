@@ -54,7 +54,7 @@ Atom is written in a monadic style.  Here, we have two conditions, both of whic
 
 The rest of the architecture handles the message passing (in the C code we'll generate, messages are passed via global variables) and synchronization between the driver and device, as summarized below:
 
-\\[caption id="attachment\_73" align="aligncenter" width="340" caption="System Architecture"\\]![System Architecture](images/arch2.jpg "arch2")\\[/caption\\]
+\\[caption id="attachment\_73" align="aligncenter" width="340" caption="System Architecture"\\]![System Architecture](blog/images/arch2.jpg "arch2")\\[/caption\\]
 
 We do not assume that `fibDvr` and `fibDev` execute at the same rate, so we handle message passing with a series of handshakes.  First, `fibDvr` sends a new value `x` and notifies `fibDev` that the value is ready (by issuing `newInd`).  `fibDev` acknowledges that `x` has been received with `valRcvd`.  At this point, `fibDvr` knows to wait for `fibDev` to compute fib_(x_).  Once it receives the notice `ansReady`, it reads off the answer, `ans`.
 
