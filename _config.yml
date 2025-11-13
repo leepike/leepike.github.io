@@ -1,7 +1,7 @@
 # Site settings
 title: "Lee Pike’s Blog"
 description: "Things that amuse me."
-baseurl: "/blog"
+# baseurl: "/blog"
 url: "https://leepike.github.io"
 
 # Build settings
