@@ -12,7 +12,8 @@ kramdown:
   input: GFM
   parse_block_html: true
   hard_wrap: false
-# theme: minima
+
+theme: minima
 
 # Permalink format for posts
 permalink: /blog/:year/:month/:day/:title/
