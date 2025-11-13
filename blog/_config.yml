@@ -3,7 +3,6 @@ title: "Lee Pike’s Blog"
 description: "Things that amuse me."
 baseurl: "/blog"
 url: "https://leepike.github.io"
-layouts_dir: blog/_layouts
 
 # Build settings
 markdown: kramdown
