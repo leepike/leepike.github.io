@@ -6,12 +6,8 @@ url: "https://leepike.github.io"
 
 # Build settings
 markdown: kramdown
-# kramdown:
-#   math_engine: mathjax
-#   math_engine_opts: {}  # optional
-#   input: GFM
-#   parse_block_html: true
-#   hard_wrap: false
+kramdown:
+  math_engine: mathjax
 
 theme: minima
 
