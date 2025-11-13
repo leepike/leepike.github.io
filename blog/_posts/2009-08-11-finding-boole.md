@@ -16,7 +16,7 @@ Let \\(f\_0\\), \\(f\_1\\), \\(\ldots\\), \\(f\_j\\) range over 2-ary Boolean fu
 
 Our question is, "Do there exist instantiations of \\(f\_0\\), \\(f\_1\\), \\(\ldots\\), \\(f\_j\\) such that for all inputs, \\(f = spec\\)?
 
-What is interesting to me is that our question is quantified and of the form, "exists a forall b ...", and it is "higher-order" insofar as we want to find whether there exist satisfying functions. That said, the property is easy to encode as a model-checking problem. Here, I'll encode it into [SRI's Symbolic Analysis Laboratory](http://sal.csl.sri.com/) (SAL) using its BDD engine.  
+What is interesting to me is that our question is quantified and of the form, "exists a forall b ...", and it is "higher-order" insofar as we want to find whether there exist satisfying functions. That said, the property is easy to encode as a model-checking problem. Here, I'll encode it into [SRI's Symbolic Analysis Laboratory](http://sal.csl.sri.com/) (SAL) using its BDD engine.
 
 To code the problem in SAL, we'll first define for convenience a shorthand for the built-in type, BOOLEAN:
 
