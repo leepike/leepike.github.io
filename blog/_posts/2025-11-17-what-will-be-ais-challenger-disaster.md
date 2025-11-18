@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Max: Phase 1 Report"
+title: "Will AI Have its Challenger Disaster?"
 date: 2025-11-17
 ---
-
-# Will AI Have its Challenger Disaster?
 
 In 1986, the Challenger Space Shuttle exploded 73 seconds after liftoff.[^1] Onboard was Christa McAuliffe, the first civilian and educator selected for spaceflight.[^2] Millions of schoolchildren watched live as the shuttle disintegrated. The tragedy was a national shock.
 
