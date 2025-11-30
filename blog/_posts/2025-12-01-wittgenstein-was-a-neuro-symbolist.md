@@ -1,4 +1,8 @@
-# Wittgenstein was a Neuro-Symbolist
+---
+layout: post
+title: "Wittgenstein was a Neuro-Symbolist"
+date: 2025-12-02
+---
 
 *How Wittgenstein foreshadowed the need and challenges of combining LLMs and automated reasoning.*
 
