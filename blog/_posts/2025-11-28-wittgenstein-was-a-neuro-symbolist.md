@@ -43,7 +43,7 @@ He rebukes his viewpoint from TLP, that language meaning is a logical picture of
 
 Within the *Philosophical Investigations*, Wittgenstein anticipates the neuro-symbolic approach. Pure logical reasoning cannot live on its own, but for certain language-games (mathematics, software verification, business-critical logic, etc.), logic provides the structure.
 
-At the end of the day, mathematical proof is a social convention in which I need to convince you that the symbols and axioms represent something in the world, and that convincing is by natural language.  
+At the end of the day, mathematical proof, whether formalized or not, is a "game" I use to convince you something is true. I need to convince you that the symbols and axioms represent something in the real world (if about software or hardware) or in the less tangible but no less real-world of mathematical objects (if about pure maths). And that convincing is by natural language.  
 
 
 [^1]:  Russell, Stuart J.; Norvig, Peter. (2021). *Artificial Intelligence: A Modern Approach*. Pg. 17\.
