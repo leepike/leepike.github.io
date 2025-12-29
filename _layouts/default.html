@@ -31,22 +31,21 @@ window.MathJax = {
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" onload="MathJax.typeset()"></script>
 
 <body>
-  <header>
-    <!-- Link to the blog index (root of the site in the context of baseurl) -->
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Lee Pike’s Blog" }}</a></h1>
-
-    <nav>
-      <!-- '/' | relative_url => '/blog/' when baseurl = '/blog' -->
-      <a href="https://leepike.github.io/">Website Home</a>
-    </nav>
-    <hr>
-  </header>
-
   <main>
     {{ content }}
   </main>
 
   <footer>
+    <hr>
+    <header>
+      <!-- Link to the blog index (root of the site in the context of baseurl) -->
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Lee Pike's Blog" }}</a></h1>
+
+      <nav>
+        <!-- '/' | relative_url => '/blog/' when baseurl = '/blog' -->
+        <a href="https://leepike.github.io/">Website Home</a>
+      </nav>
+    </header>
     <hr>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.title | default: "Lee Pike’s Blog" }}</p>
   </footer>
