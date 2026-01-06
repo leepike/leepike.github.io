@@ -12,7 +12,7 @@ The primary focus of these efforts today is on pure math proofs in Lean. These g
 
 But there are decades of development in other proof assistants such as ACL2, Isabelle/HOL, and Rocq (Coq). In particular, these assistants have been used to verify complex systems like compilers and microkernels, beyond pure mathematics.
 
-This blog post argues that math-AI systems that focus on Lean miss out on **most** formal proof training data since it sits in other proof assistants. I don’t know anything about the models these companies use, other than what has been made public. Public documentation I have seen does not mention leveraging training data from other proof assistants.[^1]
+This blog post argues that math-AI systems that focus on Lean miss out on **most** formal proof training data since it sits in other proof assistants.
 
 # Where the Wild Theorems Are
 
@@ -65,5 +65,3 @@ But this kind of translation is exactly what LLMs are good at\! Indeed, there ha
 The [MiniF2F repo](https://github.com/openai/miniF2F/tree/main) is an abandoned OpenAI project to formalize problems from Math Olympiads across HOL Light, Isabelle, Lean, and Metamath. However, in 2025, researchers were able to [automatically translate 98% of MiniF2F theorems into Rocq](https://arxiv.org/pdf/2503.04763) using LLM-based techniques. (Note this work translates theorems only, not their associated proofs.)
 
 Building on these efforts, math-AI, and more generally, neurosymbolic AI, can become more powerful, accurate, and more relevant to real-world verification problems. The data to improve math-AI exists, waiting to be unlocked.
-
-[^1]:  Although some systems leverage multiple proof assistants. For example, in 2024, Google Deepmind [used a Lean-based solver as well as a specialized geometry solver](https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/) to tackle the Math Olympiad.
