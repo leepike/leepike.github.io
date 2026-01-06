@@ -20,16 +20,16 @@ For a back-of-the-envelope analysis for how many theorems and proofs are availab
 
 | Prover | Search term | Number of files |
 | :---- | :---- | :---- |
-| ACL2 | path:\*.lisp AND defthm | 21.9k |
-| Agda | path:\*.agda | 75.8k |
-| Rocq (Coq) | path:\*.v AND (Theorem OR Lemma OR Fact OR Remark OR Corollary) | 339k |
-| Isabelle/HOL/HOL Light | (path:\*.thy OR path:\*.hl OR path:\*.ml) AND (set\_goal OR prove OR theorem OR lemma OR proposition OR thm) | 183k |
-| PVS | path:\*.pvs AND (THEOREM OR LEMMA OR CLAIM OR PROPOSITION) | 4.1k |
+| ACL2 | `path:\*.lisp AND defthm` | 21.9k |
+| Agda | `path:\*.agda` | 75.8k |
+| Rocq (Coq) | `path:\*.v AND (Theorem OR Lemma OR Fact OR Remark OR Corollary)` | 339k |
+| Isabelle/HOL/HOL Light | `(path:\*.thy OR path:\*.hl OR path:\*.ml) AND (set\_goal OR prove OR theorem OR lemma OR proposition OR thm)` | 183k |
+| PVS | `path:\*.pvs AND (THEOREM OR LEMMA OR CLAIM OR PROPOSITION)` | 4.1k |
 
 
 So we get a total of \~**624k files**.
 
-We can do the same for Lean as well. Searching GitHub for Lean files with proofs using path:\*.lean AND (theorem OR lemma OR example), we get **251k files**.
+We can do the same for Lean as well. Searching GitHub for Lean files with proofs using `path:\*.lean AND (theorem OR lemma OR example)`, we get **251k files**.
 
 On the face of it, this means **over 70%** of publicly available files containing proof scripts are in proof assistants other than Lean, which is likely approximately correct.
 
