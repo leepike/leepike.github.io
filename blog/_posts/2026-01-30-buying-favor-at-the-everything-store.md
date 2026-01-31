@@ -42,10 +42,10 @@ Finally, there is the pragmatic reality: buying favor rarely buys safety. Histor
 
 # The Market Speaks
 
-Even short-term, the proof is in the pudding: at the time of this writing, Amazon stock is up 1% over the past 12 months (from Jan 30, 2026), compared to 15% for the S\&P 500, reinforcing the point that political proximity is a poor substitute for market leadership. This 14% underperformance represents more than just a sluggish stock price; it is the opportunity cost of a leadership team distracted by political optics rather than operational excellence.
+Even short-term, the proof is in the pudding: at the time of this writing, Amazon stock is up 1% over the past 12 months (from Jan 30, 2026), compared to 15% for the S&P 500, reinforcing the point that political proximity is a poor substitute for market leadership. This 14% underperformance represents more than just a sluggish stock price; it is the opportunity cost of a leadership team distracted by political optics rather than operational excellence.
 
 I close with one of Amazon’s Leadership Principles that Amazon leadership can recall while facing political headwinds:
 
-*Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.* 
+*Have Backbone; Disagree and Commit: Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.*
 
 Disclosure: The author is an Amazon, Inc. shareholder.
