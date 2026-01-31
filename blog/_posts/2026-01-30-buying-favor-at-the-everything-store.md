@@ -32,7 +32,7 @@ Amazon’s famous [1997 shareholder letter](https://www.aboutamazon.com/news/com
 
 Amazon is famous for its "Flywheel"—a virtuous cycle where lower prices lead to a better customer experience, which drives traffic, attracts sellers, and creates scale that allows for even lower prices.
 
-Buying political favor acts as friction on this flywheel. It diverts capital, and more importantly, attention, away from the customer and toward political optics that offer no structural, durable advantage. A presidential term is only four years; the House often flips during midterms. You cannot buy a long-term permanent moat in a free market (just ask AT&T/Bell Systems after the breakup).
+Buying political favor acts as friction on this flywheel. It diverts capital, and more importantly, attention, away from the customer and toward political optics that offer no structural, durable advantage. A presidential term is only four years; the House often flips during midterms. You cannot buy a permanent moat in a free market (just ask AT&T/Bell Systems after their antitrust lawsuit in the 70s and breakup in the early 80s).
 
 Furthermore, a focus on political favor creates a culture tax. Amazon’s success was built on a "Day 1" mentality. When leadership engages in transactional political plays, it signals to \~1.5 million employees that success is about who you know, not what you build. High-performing talent joins tech giants to solve hard problems, not to serve as a political slush fund. When the principles guiding the rank-and-file are ignored at the top, the resulting cynicism acts as a slow-drip poison to institutional morale.
 
